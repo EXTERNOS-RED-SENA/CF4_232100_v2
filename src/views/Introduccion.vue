@@ -8,33 +8,32 @@
         span
           i.fas.fa-info
       h1 Introducción
+    .row.justify-content-center.mb-4
+      .col-lg-9.mb-lg-0.mb-3
+        p.mb-4 En un contexto global donde la sostenibilidad y la eficiencia productiva son cada vez más relevantes, el sector agropecuario enfrenta el reto de optimizar el uso de sus recursos mientras maximiza el rendimiento. Para lograrlo, la integración de tecnologías avanzadas se ha convertido en una necesidad. Este componente, Sistemas automatizados para el monitoreo y gestión de labores agrícolas, proporciona al aprendiz las bases teóricas y prácticas necesarias para implementar soluciones tecnológicas que permitan un monitoreo eficiente y una toma de decisiones basada en datos.
+        .row.justify-content-center
+          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.png', alt='')
+          .col-lg-7
+            .p-4.h-100(style="background-color: #C8E2AA")
+              p.mb-0 El monitoreo de labores agrícolas se sustenta en herramientas como los Sistemas de Información Geográfica (SIG), el Sistema de Posicionamiento Global (GPS) y sensores IoT. Estas tecnologías posibilitan la recopilación, análisis y visualización de datos geoespaciales en tiempo real, fundamentales para identificar la variabilidad espacial y temporal en las unidades productivas. A través de este conocimiento, es posible diseñar estrategias específicas para cada zona del cultivo, optimizando el uso de insumos como agua, fertilizantes y pesticidas.
+      .col-lg-3.d-none.d-lg-block: img(src='@/assets/curso/temas/2.png', alt='')
+    p.mb-4 Asimismo, este componente destaca la importancia de sistemas como el riego automatizado, que ajustan el suministro de agua en función de las condiciones específicas del suelo y del clima. La capacidad de integrar estos sistemas con SIG y GPS permite un monitoreo continuo y preciso, mejorando la eficiencia de las operaciones agrícolas.
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
+      .col-lg-7
+        .row.align-items-center.mb-4
+          .col-lg-auto
+            img(src="@/assets/curso/temas/4.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 El aprendiz también explorará el uso de herramientas de geoestadística para analizar la variabilidad de los datos y generar mapas temáticos que faciliten la toma de decisiones. Estas habilidades sirven para implementar prácticas de agricultura de precisión, un enfoque que no solo mejora la productividad, sino que también reduce el impacto ambiental y asegura la sostenibilidad del sistema productivo.
+        p.mb-0 En resumen, este componente prepara al aprendiz para enfrentar los desafíos del sector agropecuario moderno, proporcionando las competencias necesarias para diseñar, implementar y operar sistemas automatizados que promuevan la competitividad y sostenibilidad en el campo
+    p.mb-4 ¡Bienvenido al mundo de los sistemas automatizados para el monitoreo y gestión de labores agrícolas, donde descubrirás cómo integrar tecnología avanzada para optimizar recursos, mejorar la productividad y contribuir a la sostenibilidad del sector agropecuario!
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Leyenda del video
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        .bg1.p-4.h-100
-          p En la era de la inteligencia artificial, los datos se han convertido en uno de los recursos más valiosos para las organizaciones. Sin embargo, para que estos datos sean verdaderamente útiles, necesitan ser adecuadamente modelados, gestionados y procesados. La diferencia entre un proyecto de IA exitoso y uno fallido a menudo radica en la calidad y estructura de los datos que lo alimentan.
-
-          p Este componente formativo aborda los principios esenciales del modelamiento y gestión de datos en el contexto de la inteligencia artificial. Comienza con los conceptos básicos de estructuras de datos, seguido por técnicas de calidad y tratamiento de datos. Se exploran los sistemas de gestión de bases de datos y, finalmente, se introduce la inteligencia artificial y sus requerimientos de datos.
-              
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/1.png', alt='')
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/2.png', alt='')    
-      .col-lg-7.my-lg-0.my-3
-        p A lo largo del componente, el aprendiz descubrirá cómo las diferentes piezas del rompecabezas de datos se unen para formar la base de sistemas de IA efectivos. Mediante referencias de estudio, se explorarán las mejores prácticas en el modelamiento y gestión de datos, así herramientas y tecnologías relevantes en el campo.
-
-        p La comprensión profunda de estos fundamentos es muy importante para toda persona que aspire a trabajar en el campo de la IA. Como dice el refrán en ciencia de datos: "Los modelos son tan buenos como los datos que los alimentan".
-            
-        .bg2.p-2
-          p.mb-0 ¡Bienvenida/o a este viaje por los fundamentos del modelamiento y gestión de datos para IA!               
-
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/wG0fdlslv1I?si=0OxDo-LplwKhl-ZT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 
 </template>
 

@@ -159,9 +159,9 @@ export default {
   },
   global: {
     Name:
-      'Modelamiento y gestión de datos para modelos de inteligencia artificial',
+      'Sistemas automatizados para el monitoreo y gestión de labores agrícolas',
     Description:
-      'Este componente ofrece una introducción comprehensiva al modelamiento y gestión de datos para sistemas de inteligencia artificial. Abarca los fundamentos de estructuras de datos, técnicas de calidad y tratamiento, sistemas de gestión de bases de datos y conceptos básicos de IA. Proporciona las bases teóricas necesarias para comprender cómo los datos se transforman en información valiosa para modelos de IA.',
+      'Este componente aborda la implementación de sistemas automatizados para el monitoreo y gestión de labores agrícolas, utilizando herramientas como Sistemas de Información Geográfica (SIG), Sistema de Posicionamiento Global (GPS) y sensores IoT. A través de estas tecnologías, el aprendiz desarrollará competencias para recopilar, procesar y analizar datos en tiempo real, mejorando la precisión en la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],

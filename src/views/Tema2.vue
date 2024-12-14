@@ -5,210 +5,165 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Calidad y tratamiento de datos
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        .bg4.p-4
-          p.mb-0 La calidad y el tratamiento adecuado de los datos son pilares fundamentales para el éxito de cualquier proyecto de análisis o inteligencia artificial. En esta sección, se abordan las metodologías y técnicas necesarias para garantizar que los datos con los que trabajamos sean confiables, consistentes y útiles para los objetivos planteados. 
-
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/34.png', alt='')          
-
-    Separador 
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Características de calidad de datos
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/31.svg', alt='')       
-      .col.my-lg-0.my-3
-        .bg6.p-3
-          p.mb-0 La calidad de los datos es un aspecto fundamental en el desarrollo de modelos de inteligencia artificial. Así como un chef no puede preparar un platillo exquisito con ingredientes en mal estado, un modelo de IA no puede proporcionar resultados confiables si se alimenta con datos de baja calidad. La famosa frase "#[i #[b garbage in, garbage out]]" (entra basura, sale basura) resume perfectamente esta realidad en el campo del análisis de datos.   
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        p La calidad de los datos se puede evaluar a través de múltiples dimensiones. La precisión es quizás la más evidente: los datos deben representar fielmente la realidad que intentan capturar. Por ejemplo, si estamos registrando la temperatura de un proceso industrial, necesitamos asegurarnos de que nuestros sensores estén correctamente calibrados y que las mediciones sean exactas.
-        p La completitud es otra dimensión estratégica. Los datos incompletos pueden llevar a conclusiones sesgadas o incorrectas. Imaginemos un estudio de satisfacción del cliente donde solo tenemos respuestas de usuarios muy satisfechos o insatisfechos: esto nos daría una visión distorsionada de la realidad, pues faltaría la información de aquellos clientes con opiniones moderadas.
-        .bg6.p-3
-          p.mb-0 La consistencia de los datos implica que la información sea coherente a través de diferentes sistemas y registros. Por ejemplo, si un cliente aparece con diferentes direcciones en distintas bases de datos de la empresa, ¿cuál es la correcta? La falta de consistencia puede generar confusión y errores en el procesamiento de la información.  
-
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/32.png', alt='')   
-
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Cinco recomendaciones para garantizar datos de calidad
-
-    .row.justify-content-center.mb-4 
-      .col-lg-3.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/33.png', alt='')          
-      .col-lg-9.my-3
-        AccordionRED(tipo="a" clase-tarjeta="tarjeta bg7")
-          .row.justify-content-center(titulo="Precisión en los datos")
-            .col-lg-7.my-3
-              p Los datos deben reflejar con exactitud la realidad. Es fundamental utilizar herramientas de calibración y validación para asegurar que las mediciones y registros sean correctos.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/35.png', alt='')   
-
-          .row.justify-content-center(titulo="Completitud de los datos")
-            .col-lg-7.my-3
-              p Los datos incompletos pueden generar conclusiones sesgadas. Asegurarse de registrar toda la información necesaria previene la distorsión en los análisis. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/36.png', alt='')  
-
-          .row.justify-content-center(titulo="Consistencia entre sistemas")
-            .col-lg-7.my-3
-              p La coherencia de los datos debe ser garantizada entre diferentes sistemas y bases de datos. Es esencial realizar procesos de limpieza para evitar errores y discrepancias. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')  
-              
-          .row.justify-content-center(titulo="Validación continua de datos")
-            .col-lg-7.my-3
-              p Implementar mecanismos automáticos de validación garantiza que los datos nuevos ingresados sigan los estándares de calidad definidos.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')  
-
-          .row.justify-content-center(titulo="Contextualización de los datos")
-            .col-lg-7.my-3
-              p Los datos deben ser acompañados del contexto adecuado (fecha, ubicación, evento) para ser realmente útiles en el análisis y la toma de decisiones.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')  
-
-          .row.justify-content-center(titulo="Resumen")
-            .col-lg-7.my-3
-              ul.lista-ul.fa-ul
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Asegurar precisión en los datos.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Garantizar la completitud de la información.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Mantener consistencia entre sistemas.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Validar los datos de forma continua.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Proporcionar contexto para su correcta interpretación.            
-              p La calidad de los datos garantiza el éxito de los modelos de inteligencia artificial y genera análisis rigurosos tanto para información simple como compleja. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')            
-
-    Separador 
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Técnicas de extracción y filtrado
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.my-lg-0.my-3
-        .bg8.p-4
-          p.mb-0 La extracción de datos es como la minería: debemos saber dónde buscar y qué herramientas utilizar para obtener la información valiosa. Este proceso involucra la identificación y recuperación de datos relevantes de diversas fuentes, que pueden incluir bases de datos relacionales, archivos de texto, hojas de cálculo, páginas web o incluso sensores IoT.      
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')       
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        .bg10.p-4
-          p Una de las técnicas más comunes de extracción es el web scraping, que permite obtener información estructurada de páginas web. Sin embargo, esta técnica debe utilizarse con responsabilidad, respetando los términos de servicio de los sitios web y las políticas de privacidad aplicables.
-
-          p.mb-0 El filtrado de datos es el proceso de eliminar o modificar datos que no cumplen con ciertos criterios de calidad o relevancia. Podemos clasificar las técnicas de filtrado en varias categorías según su propósito:   
-
-
-    .row.justify-content-center
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
-          span Tipos de filtrado de datos, objetivos, técnicas comunes y consideraciones.
-
-        .tabla-a.color-acento-botones.mb-5 
-          table
-            caption Fuente: OIT, 2024.
-            thead
-              tr
-                th Tipo de Filtrado
-                th Objetivo
-                th Técnicas Comunes
-                th Consideraciones
-
-            tbody
-              tr
-                td Limpieza
-                td Eliminar errores y anomalías
-                td Detección de #[i outliers], corrección de formatos
-                td Puede requerir validación manual
-              tr
-                td Reducción
-                td Disminuir el volumen de datos
-                td Muestreo, agregación
-                td Riesgo de pérdida de información
-              tr
-                td Transformación
-                td Convertir datos a formato útil
-                td Normalización, codificación
-                td Debe mantener la integridad de los datos
-              tr
-                td Enriquecimiento
-                td Agregar información adicional
-                td.fst-italic Joins, lookup tables
-                td Puede aumentar la complejidad
-
-    Separador 
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Transformación e integración de datos    
-    .row.justify-content-center.mb-4
-      .col.my-lg-0.my-3
-        p La transformación de datos es como traducir un texto a diferentes idiomas: el significado debe mantenerse, aunque la forma cambie. Este proceso implica convertir los datos de su formato original a uno que sea más adecuado para el análisis o el modelado. Las transformaciones pueden ser tan simples como cambiar el formato de una fecha o tan complejas como aplicar cálculos matemáticos avanzados.
-
-        p Una transformación común es la normalización, que ajusta los valores numéricos a una escala común. Por ejemplo, si tenemos datos de ventas en diferentes monedas, necesitaremos convertirlos todos a una moneda común para poder compararlos adecuadamente. Otro ejemplo sería la estandarización de textos, asegurando que todas las cadenas de caracteres sigan el mismo formato (mayúsculas/minúsculas, tratamiento de espacios, etc.).    
-      .col-auto.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/45.png', alt='')       
-
+      h1 Fundamentos de los sistemas de información
     .row.justify-content-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/44.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        p La integración de datos es el proceso de combinar datos de diferentes fuentes en una vista unificada y coherente. Este proceso puede ser particularmente desafiante cuando las fuentes tienen diferentes estructuras, formatos o niveles de calidad. Es como armar un rompecabezas donde las piezas provienen de diferentes cajas: necesitamos encontrar la forma de que encajen correctamente. 
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.p-4.h-100(style="background-color: #B0C4D7")  
+          p.mb-0 Los Sistemas de Información Geográfica (SIG) y el Sistema de Posicionamiento Global (GPS) son pilares fundamentales en la implementación de sistemas automatizados para el monitoreo y gestión de labores agrícolas. Estas herramientas permiten analizar y gestionar grandes volúmenes de datos georreferenciados, lo que es valioso para la agricultura de precisión. Este capítulo proporciona una fundamentación teórica sólida sobre estos sistemas, explorando sus componentes, funcionamiento y aplicaciones en el ámbito agropecuario.
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.png', alt='')
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.p-4.h-100(style="background-color: #D7E1EB")
+          img(src='@/assets/curso/temas/12.svg', alt='' style='width: 85px').mb-3  
+          p.mb-0 Así mimo, se incluye una revisión de los sensores IoT, que se integran con SIG y GPS para monitorear variables agrícolas en tiempo real. Esta combinación tecnológica permite a los agricultores tomar decisiones basadas en datos precisos, optimizando los recursos y mejorando la sostenibilidad del sistema productivo. 
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.1	Sistemas de Información Geográfica (SIG)
+    .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/curso/temas/13.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0  En la agricultura moderna, el manejo eficiente de grandes volúmenes de datos espaciales es clave para la toma de decisiones precisas y oportunas. Los Sistemas de Información Geográfica (SIG) se han consolidado como una herramienta fundamental para integrar y analizar información georreferenciada, permitiendo visualizar y comprender patrones espaciales complejos. A través de mapas, modelos y análisis espaciales, los SIG facilitan la identificación de áreas críticas en las unidades productivas, optimizando así las operaciones agrícolas y contribuyendo a una gestión más sostenible.
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        p.mb-4 El GPS es un sistema de navegación por satélite que permite determinar la posición geográfica precisa de una persona, animal o cosa en cualquier lugar del mundo. Fue desarrollado originalmente por el Departamento de Defensa de los Estados Unidos y es operado por una constelación de al menos 24 satélites en órbita terrestre.
+        .p-4(style="background-color:  #98E2EC")  
+          p.mb-0 El GPS funciona mediante la recepción de señales de radio emitidas por los satélites, que contienen información sobre ubicación y el tiempo. Para que se pueda generar la ubicación, deben al menos encontrarse la señal emitida por cuatro satélites los cuales deben estar visibles desde el receptor para calcular coordenadas tridimensionales, que corresponden a la latitud, la longitud y la altitud, o a su equivalente de geolocalización.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/14.png', alt='')   
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/15.png', alt='')
+      .col-lg-8
+        p.mb-4 Sus principales usos incluyen:
+        ul.lista-ul--color
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 Navegación en medios de transporte terrestre, marítimo y aéreo.
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 Geolocalización en dispositivos móviles y aplicaciones de mapas.     
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 Monitoreo de flotas, de actividades deportivas y útil para movilizarse y para el rescate.      
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 Agricultura de precisión y levantamientos topográficos.
+        p.mb-0 Es un sistema confiable, de alta precisión, y está disponible globalmente de forma gratuita para el uso civil, existiendo otros sistemas de navegación como el Glonass, el Beidou, y el sistema Galileo.  
+    .bg-slyder.mn.p-5.mb-5
+      .tarjeta.bg-white.p-5
+        CarouselRED(tipo='b')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h4 Componentes de un GPS
+              ul.lista-ul--color
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Datos vectoriales:] representan elementos geográficos como puntos, líneas y polígonos (e.g., pozos, caminos y parcelas).
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Datos ráster:] imágenes o mapas compuestos por una matriz de píxeles, que representan variables continuas como elevación o humedad del suelo.
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Bases de datos espaciales:] almacenan información tabular relacionada con los elementos geográficos.
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Software:] herramientas como QGIS, ArcGIS o similares que permiten la manipulación y análisis de datos geoespaciales.
+            .col-lg-5.col-7
+              figure
+                img(src='@/assets/curso/temas/16.png', alt='Texto que describa la imagen')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h4 Aplicaciones en agricultura
+              p Los SIG son cada vez más importantes para la agricultura de precisión, permitiendo:
+              ul.lista-ul--color
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Mapeo de rendimiento:] identificación de áreas con diferentes niveles de productividad.
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Análisis de suelos:] mapas de fertilidad y propiedades físicas del suelo.
+                li.d-flex.mb-1
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Monitoreo de plagas y enfermedades:] detección y seguimiento geoespacial de brotes.
+            .col-lg-5.col-7
+              figure
+                img(src='@/assets/curso/temas/17.png', alt='Texto que describa la imagen')
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.2	Sistema de Posicionamiento Global (GPS)
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        p.mb-4 El Sistema de Posicionamiento Global (GPS) es una tecnología que se usa para el monitoreo y gestión de labores agrícolas. Su capacidad para proporcionar datos de localización precisos en tiempo real permite a los agricultores mejorar la eficiencia de tareas como la delimitación de parcelas, la planificación de rutas de maquinaria y el muestreo georreferenciado. Esta herramienta se integra perfectamente con otros sistemas tecnológicos, como los SIG, para generar análisis geoespaciales más detallados y precisos.
+        AccordionRED.mb-5( clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="Fundamentos del GPS")
+            p.mb-0 El Sistema de Posicionamiento Global (GPS) utiliza una red de satélites para determinar la ubicación exacta de un objeto en la superficie terrestre. Su precisión y capacidad para trabajar en tiempo real lo hacen invaluable en el monitoreo agrícola.
+          div(titulo="Componentes del GPS")
+            ul.lista-ul--color
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Segmento espacial:] satélites que emiten señales.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Segmento de control:] estaciones en tierra que supervisan y ajustan las órbitas satelitales.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Segmento del usuario:] receptores GPS que capturan señales y calculan la posición geográfica.
+          div(titulo="Aplicaciones en agricultura")
+            ul.lista-ul--color
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Delimitación de parcelas:] precisión en la división y gestión de áreas de cultivo.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Rutas de maquinaria agrícola:] optimización de trayectorias para labores como siembra y cosecha.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 #[b Muestreo georreferenciado:] toma de muestras de suelo o plantas en ubicaciones específicas
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/18.png', alt='')
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.3	Sensores IoT en la agricultura
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.png', alt='')
+      .col-lg-7
+        p.mb-4 La revolución tecnológica en la agricultura no estaría completa sin la incorporación de los sensores IoT (Internet de las Cosas). Estos dispositivos recopilan datos en tiempo real sobre diversas variables agrícolas, como la humedad del suelo, la temperatura y los niveles de nutrientes, y los transmiten de manera automática para su análisis y procesamiento. La integración de sensores IoT con SIG y GPS permite una supervisión continua y precisa de las condiciones de campo, facilitando la automatización de decisiones críticas como el riego o la fertilización.
+        AccordionRED.mb-5( clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="Concepto y tipos de sensores IoT")
+            p.mb-0 Los sensores IoT son dispositivos que recopilan datos específicos en campo y los transmiten en tiempo real a través de redes inalámbricas. En el ámbito agrícola, estos sensores permiten medir parámetros críticos como la humedad del suelo, la temperatura, la salinidad y los niveles de nutrientes.
+          div(titulo="Tipos de sensores utilizados")
+            ul.lista-ul--color
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 Sensores de humedad del suelo: miden el contenido de agua en el suelo, facilitando la optimización del riego.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 Sensores climáticos: registran temperatura, humedad relativa y velocidad del viento.
+              li.d-flex.mb-1
+                i.fas.fa-check-circle
+                p.mb-0 Sensores de nutrientes: detectan niveles de nitrógeno, fósforo y potasio en el suelo.
+    Separador 
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.4	Integración con SIG y GPS
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
+      .col-lg-9
+        p.mb-4 Los datos recolectados por sensores IoT se integran en tiempo real con plataformas SIG y GPS, lo que permite:
+        ul.lista-ul--color
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 #[b Monitoreo continuo:] supervisión constante de las condiciones del cultivo.
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 #[b Toma de decisiones automatizada:] activación de sistemas como riego o fertilización basados en datos específicos.
+          li.d-flex.mb-1
+            i.fas.fa-check-circle
+            p.mb-0 #[b Visualización espacial:] representación de variables en mapas para identificar patrones y áreas críticas.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 2.
+      span Resumen Fundamentos de los sistemas de información
+    img(src='@/assets/curso/temas/21.svg', alt='La Figura 2 se denomina «Resumen Fundamentos de los sistemas de información» ilustra los fundamentos de los sistemas de información en la agricultura, destacando el uso de los Sistemas de Información Geográfica (SIG) y el Sistema de Posicionamiento Global (GPS). Se abordan sus componentes, funciones y aplicaciones en el monitoreo de cultivos, planificación de riego y control de plagas. También se resalta la integración de sensores IoT con estas tecnologías.')
+    figcaption Fuente: OIT, 2024.
 
-        p La integración también debe considerar la temporalidad de los datos. Los datos históricos pueden ser valiosos para identificar tendencias y patrones, pero deben integrarse de manera que mantengan su contexto temporal. Por ejemplo, al analizar el rendimiento de ventas, necesitamos asegurarnos de que estamos comparando períodos equivalentes y considerando factores estacionales.
 
 
-        p El éxito en la transformación e integración de datos requiere un equilibrio entre la automatización y el criterio humano. Si bien muchos procesos pueden automatizarse, el conocimiento del dominio y el juicio experto son fundamentales para garantizar que las transformaciones sean significativas y que la integración produzca resultados útiles para el análisis posterior.
-
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Errores comunes y riesgos de datos contradictorios
-
-    .row.justify-content-center.mb-4 
-      .col-lg-6.my-3
-        TimeLineRED.color-primario(data-aos="fade-right")
-          p(numero="1" titulo="Confusión en la toma de decisiones") Los datos contradictorios pueden llevar a tomar decisiones erróneas, ya que diferentes fuentes de información proporcionan resultados opuestos. Esto afecta la confiabilidad de los análisis y puede generar estrategias mal orientadas.
-          p(numero="2" titulo="Impacto en el análisis de tendencias") Cuando los datos contienen contradicciones, los modelos predictivos y el análisis de tendencias se ven gravemente afectados. Esto puede dar lugar a conclusiones erróneas sobre comportamientos futuros o el desempeño de una estrategia.
-          p(numero="3" titulo="Problemas en la integración de datos") La combinación de datos provenientes de diferentes fuentes, sin un proceso de validación y reconciliación adecuado, puede generar incoherencias. Esto es especialmente crítico cuando se integran bases de datos de sistemas no compatibles o mal gestionados.
-          p(numero="4" titulo="Desconfianza de los usuarios") La presencia de datos contradictorios puede minar la confianza de los usuarios o stakeholders en los resultados obtenidos. La falta de confianza afecta la aceptación y el uso de los sistemas de inteligencia empresarial o modelos de IA.
-          p(numero="5" titulo="Dificultad en la escalabilidad") A medida que los volúmenes de datos crecen, las contradicciones en los datos se vuelven más difíciles de detectar. Esto complica la escalabilidad de los sistemas de análisis y puede generar errores en el procesamiento a gran escala.
-
-      .col-lg-6.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/46.png', alt='')  
-
-    .row.justify-content-center.align-items-center.bg11.p-0
-      .col-lg-5.my-lg-0.my-3.p-0
-        img.img-mov(src='@/assets/curso/temas/47.png', alt='')         
-      .col-lg-7.my-lg-0.my-3
-        .p-4.j1
-          h5.text-white.bg12.px-2 Cómo mitigar estos problemas
-          p.mb-0 Para evitar que los datos contradictorios afecten el análisis y la toma de decisiones, es necesario implementar procesos robustos de validación, limpieza y unificación de datos. Asegurar la consistencia y la verificación continua es clave para obtener resultados precisos y confiables.                   
 </template>
 
 <script>

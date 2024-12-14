@@ -1,4 +1,5 @@
-const titulo = 'Modelamiento y gestión de datos para modelos de inteligencia artificial'
+const titulo =
+  'Sistemas automatizados para el monitoreo y gestión de labores agrícolas'
 
 module.exports = {
   publicPath: '',
