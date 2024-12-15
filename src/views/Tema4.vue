@@ -118,6 +118,46 @@
               br
               |El riego automatizado, al integrar sensores IoT, SIG y GPS, permite una aplicación precisa y eficiente del agua, ajustándose a las necesidades específicas del cultivo en tiempo real. Esta tecnología no solo optimiza el uso del agua, un recurso vital y limitado, sino que también mejora la productividad y calidad de los cultivos. Además, contribuye a la sostenibilidad al reducir el impacto ambiental y minimizar el desperdicio de insumos.
     p.mb-4 A continuación, se presentarán varios casos prácticos que ilustran cómo los sistemas de riego automatizado han sido implementados exitosamente, destacando los resultados obtenidos en términos de ahorro de recursos, aumento del rendimiento y mejora de la sostenibilidad agrícola.
+    .bg-slyder.mn.p-5.mb-5
+      .tarjeta.bg-white.p-5
+        CarouselRED(tipo='b')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h4 Caso 1: Riego automatizado en cultivo de caña de azúcar
+              p.mb-0 En una finca de caña de azúcar en Colombia, se implementó un sistema de riego automatizado utilizando sensores de humedad del suelo y datos climáticos en tiempo real. La instalación de los sensores permitió identificar zonas con diferentes necesidades de riego, optimizando el uso de agua y mejorando el rendimiento del cultivo en un 20%. Además, el sistema redujo los costos de energía y minimizó el escurrimiento superficial, lo que contribuyó a la sostenibilidad del proceso.
+              
+            .col-lg-5.col-7
+              figure
+                img(src='@/assets/curso/temas/44.png', alt='Texto que describa la imagen')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h4 Caso 2: Sistema automatizado en cultivo de tomate bajo invernadero
+              p.mb-0 En un invernadero de tomates, se utilizó un sistema de riego automatizado integrado con SIG y GPS. Este sistema ajustaba el riego de manera precisa en función de la humedad del suelo y la temperatura ambiente. Como resultado, se logró un ahorro de agua del 30% y un aumento de la producción en un 15%, demostrando la eficacia de la automatización en entornos controlados.
+              
+            .col-lg-5.col-7
+              figure
+                img(src='@/assets/curso/temas/45.png', alt='Texto que describa la imagen')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h4 Caso 3: Optimización del riego en un viñedo
+              p.mb-0 Un viñedo en España implementó un sistema de riego automatizado con sensores IoT distribuidos estratégicamente. Los datos recopilados fueron procesados en una plataforma SIG, permitiendo visualizar las áreas con mayor déficit hídrico. Esto llevó a una reducción significativa en el uso de agua, mejorando la calidad de las uvas y aumentando los ingresos del productor en un 25%.
+              
+            .col-lg-5.col-7
+              figure
+                img(src='@/assets/curso/temas/46.png', alt='Texto que describa la imagen')
+    p.mb-4 Estos casos ilustran cómo la implementación de sistemas de riego automatizado puede transformar las prácticas agrícolas, mejorando tanto la eficiencia como la sostenibilidad
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 4. 
+      span Resumen Sistemas automatizados de adquisición de datos
+    img(src='@/assets/curso/temas/47.svg', alt='')
+    figcaption Fuente: OIT, 2024.
+
+
+
+
+
+
+
 </template>
 
 <script>
