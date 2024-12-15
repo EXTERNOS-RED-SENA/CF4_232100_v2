@@ -206,6 +206,19 @@ export default {
       'Este componente aborda la implementación de sistemas automatizados para el monitoreo y gestión de labores agrícolas, utilizando herramientas como Sistemas de Información Geográfica (SIG), Sistema de Posicionamiento Global (GPS) y sensores IoT. A través de estas tecnologías, el aprendiz desarrollará competencias para recopilar, procesar y analizar datos en tiempo real, mejorando la precisión en la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
+      },
+    ],
   },
 }

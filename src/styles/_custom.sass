@@ -275,3 +275,36 @@ figcaption
     margin-right: 20px
 .titulo-principal__numero span
   color: $color-sistema-texto !important
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: rotate(360deg)
+
+  100%
+    transform: rotate(0deg)
+
+@keyframes float3
+  0%
+    transform: Scale(0.9)
+
+  100%
+    transform: Scale(1.1)
+.banner-principal-decorativo-1
+  animation: float1 2s ease-in-out infinite alternate !important
+  top: 25% !important
+  right: 75% !important
+.banner-principal-decorativo-3
+  animation: float1 5s ease-in infinite !important
+  top: 75% !important
+  right: 46% !important
+
+.banner-principal-decorativo-2
+  animation: float1 5s ease-in infinite !important
+  top: 20% !important
+  right: 3% !important
