@@ -50,6 +50,11 @@ const router = new VueRouter({
           name: 'tema5',
           component: () => import('../views/Tema5.vue'),
         },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () => import('../views/Tema6.vue'),
+        },
       ],
     },
     {

@@ -111,6 +111,12 @@ export default {
         titulo: 'Conclusiones',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Conclusiones',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

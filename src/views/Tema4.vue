@@ -149,7 +149,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 4. 
       span Resumen Sistemas automatizados de adquisición de datos
-    img(src='@/assets/curso/temas/47.svg', alt='')
+    img(src='@/assets/curso/temas/47.svg', alt='La Figura 4 se denomina «Resumen Sistemas automatizados de adquisición de datos» ilustra los sistemas automatizados de adquisición de datos en la agricultura de precisión, destacando su importancia en la recopilación y análisis en tiempo real. Presenta tecnologías como sensores IoT, plataformas SIG y GPS, sus funciones para monitoreo y gestión eficiente de recursos, beneficios como ahorro de agua y fertilizantes, y aplicaciones prácticas como el monitoreo del riego y la salud de cultivos.')
     figcaption Fuente: OIT, 2024.
 
 
