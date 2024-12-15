@@ -10,8 +10,10 @@
               img(src="@/assets/bullets/Seleccion_Multiple.svg", alt="Texto que describa la imagen")
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
-            h2 Prueba de conocimientos sobre modelamiento y gestión de datos para modelos de inteligencia artificial
-          p.mb-4 Validar el conocimiento adquirido sobre modelamiento y gestión de datos para modelos de inteligencia artificial. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
+            h2 PPrueba tus conocimientos sobre sistemas automatizados para el monitoreo y gestión de labores agrícolas.
+          p.mb-4 Validar el conocimiento adquirido sobre sistemas automatizados para el monitoreo y gestión de labores agrícola. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
+
+
           .tarjeta.actividad.p-3
             .row.justify-content-around.align-items-center            
               .col-sm.mb-3.mb-sm-0

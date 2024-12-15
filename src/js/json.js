@@ -15,22 +15,22 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fundamentos de datos y estructuras',
+        titulo: 'Introducción a los sistemas automatizados en la agricultura',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Conceptos básicos de datos y análisis',
+            titulo: 'Importancia del monitoreo agrícola automatizado',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Técnicas de modelado de datos',
+            titulo: 'Beneficios en la gestión de recursos y sostenibilidad',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Estructuras de datos fundamentales',
+            titulo: 'Tecnologías clave: SIG, GPS y Sensores IoT',
             hash: 't_1_3',
           },
         ],
@@ -39,68 +39,68 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Calidad y tratamiento de datos',
+        titulo: 'Fundamentos de los sistemas de información',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Características de calidad de datos',
+            titulo: 'Sistemas de Información Geográfica (SIG)',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Técnicas de extracción y filtrado',
+            titulo: 'Sistema de Posicionamiento Global (GPS)',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Transformación e integración de datos',
+            titulo: 'Sensores IoT en la agricultura',
             hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Integración con SIG y GPS',
+            hash: 't_2_4',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Gestión de bases de datos	8',
+        titulo: 'Gestión de la variabilidad espacial y temporal	',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Bases de datos relacionales y no relacionales',
+            titulo: 'Variabilidad espacial',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Operaciones CRUD y consultas básicas',
+            titulo: 'Variabilidad temporal	',
             hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Gestión y optimización de bases de datos',
-            hash: 't_3_3',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Introducción a la Inteligencia Artificial',
+        titulo: 'Sistemas automatizados de adquisición de datos	',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Conceptos fundamentales de IA',
+            titulo: 'Arquitectura de un sistema automatizado	',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Aplicaciones y casos de uso',
+            titulo: '	Integración de SIG y GPS en sistemas de monitoreo	',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Herramientas básicas para IA',
+            titulo: 'Riego automatizado',
             hash: 't_4_3',
           },
         ],
@@ -108,14 +108,50 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Conclusiones',
+        titulo: 'Procesamiento y análisis de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Geoestadística aplicada en la agricultura		',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: '	Visualización y reportes en SIG		',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Toma de decisiones basada en datos',
+            hash: 't_5_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Conclusiones',
+        titulo: 'Casos de estudio y aplicaciones prácticas	',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo:
+              'Implementación de sistemas automatizados en cultivos de alto valor	',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo:
+              '	Comparativa de resultados: métodos tradicionales vs. automatizados	',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Lecciones aprendidas y buenas prácticas	',
+            hash: 't_6_3',
+          },
+        ],
       },
     ],
     subMenu: [

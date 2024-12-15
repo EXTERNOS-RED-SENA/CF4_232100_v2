@@ -16,12 +16,61 @@ export default {
     referencias: [
       {
         referencia:
-          'Antonio, P. P. (2022). Gestión de bases de datos. Ediciones Paraninfo, S.A.',
-        link: 'http://google.com',
+          'Agricolus. (s.f.). Agricolus: La plataforma para la agricultura de precisión. ',
+        link: 'https://www.agricolus.com/es/',
       },
       {
         referencia:
-          'Díaz, C. O., Soler, P., Pérez, M. & Mier, A. (2024). OMASHU: La ciencia detrás del éxito; Big Data e IA en los eSports. Revista SISTEMAS, 170, 61-79.',
+          'Agrotendencia TV. (2020). Agricultura de precisión: Nuevas tecnologías para el agricultor [Video]. ',
+        link: 'https://www.youtube.com/watch?v=1DZQybHCEPg',
+      },
+      {
+        referencia:
+          'Álvarez Herrera, J. G., Ruiz Berrío, H. D., & Acosta Tova, D. F. (2021). Evaluación geoestadística de atributos hidrofísicos del suelo en la granja Tunguavita, Paipa, Colombia. Ciencia e Ingeniería Neogranadina',
+        link: 'https://doi.org/10.18359/rcin.5396',
+      },
+      {
+        referencia:
+          'Delgado, O., & Martínez, J. (2015). Elaboración del mapa de ruido del área urbana de la Ciudad de Cuenca – Ecuador, empleando la técnica de interpolación geoestadística Kriging ordinario. Ciencias Espaciales, 8(1), 411–440.',
+        link: 'https://doi.org/10.5377/ce.v8i1.2059',
+      },
+      {
+        referencia:
+          'Farm21. (s.f.). Guía definitiva de la agricultura de precisión. ',
+        link:
+          'https://www.farm21.com/es/guias/la-ultima-guia-de-precision-agricola/',
+      },
+      {
+        referencia:
+          'FlyPix AI. (2024). Agricultura de precisión: herramientas, software e inteligencia artificial en la agricultura.',
+        link:
+          'https://flypix.ai/es/blog/precision-agriculture-software-tools-ai/',
+      },
+      {
+        referencia:
+          'Grup de Recerca en AgròTICa i Agricultura de Precisió. (s.f.). Definiciones de Agricultura de Precisión. ',
+        link:
+          'https://www.grap.udl.cat/es/presentacio/que-fem/definicions-agricultura-de-precisio/',
+      },
+      {
+        referencia: 'HEMAV. (2024). Agricultura de Precisión: Guía Completa. ',
+        link: 'https://hemav.com/blog/agricultura-de-precision-guia-completa',
+      },
+      {
+        referencia:
+          'Universidad EARTH. (2020). Agricultura de precisión y su aplicación práctica [Video]. YouTube. ',
+        link: 'https://www.youtube.com/watch?v=V0XpvRE7M1s',
+      },
+      {
+        referencia:
+          'Universidad Nacional Agraria - Nicaragua. (2017). ¿Qué es Agricultura de Precisión? [Video]. YouTube.',
+        link: 'https://www.youtube.com/watch?v=3CHz9Ul6RFQ',
+      },
+      {
+        referencia:
+          'Universidad Nacional de Córdoba. (2024). FastMapping: Software de uso libre para la agricultura de precisión. ',
+        link:
+          'https://uncinnova.unc.edu.ar/2024/05/31/fastmapping-software-de-uso-libre-para-la-agricultura-de-precision/',
       },
     ],
   }),

@@ -24,39 +24,64 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'ACID',
+          termino: 'Agricultura de precisión',
           significado:
-            'Acrónimo de Atomicidad, Consistencia, Aislamiento y Durabilidad; propiedades que garantizan que las transacciones en una base de datos sean fiables.',
+            'Sistema de gestión agrícola que utiliza tecnologías como SIG, GPS y sensores IoT para recopilar, procesar y analizar datos en tiempo real, optimizando recursos.',
         },
         {
-          termino: 'Algoritmo',
+          termino: 'Agricultura sostenible',
           significado:
-            'Conjunto ordenado y finito de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un problema específico.',
+            'Prácticas agrícolas que buscan optimizar el uso de recursos naturales y reducir el impacto ambiental, garantizando la productividad a largo plazo.',
         },
         {
-          termino: 'Base de datos',
+          termino: 'Geoestadística',
           significado:
-            'Sistema organizado para recopilar, almacenar y gestionar datos de manera estructurada y eficiente.',
+            'Rama de la estadística que analiza y modela la distribución de variables en el espacio, utilizada para estudiar la variabilidad espacial en la agricultura.',
         },
         {
-          termino: 'CRUD',
+          termino: 'Interpolación IDW',
           significado:
-            '<i>Acrónimo de Create, Read, Update, Delete;</i> operaciones básicas que se pueden realizar sobre datos almacenados.',
+            'Método de estimación que asigna valores a puntos desconocidos basándose en la distancia a puntos conocidos, suponiendo que los puntos más cercanos son más similares.',
         },
         {
-          termino: '<i>Dataset</i>',
+          termino: 'Kriging',
           significado:
-            'Conjunto de datos organizados y formateados de manera específica para su uso en análisis o entrenamiento de modelos.',
+            'Técnica de interpolación geoestadística que no solo estima valores desconocidos, sino que también mide la incertidumbre de dichas estimaciones.',
         },
         {
-          termino: 'Datos estructurados',
+          termino: 'Mapas temáticos',
           significado:
-            'Información que está organizada en un formato predefinido y fácilmente procesable por máquinas, típicamente en tablas con filas y columnas.',
+            'Representaciones gráficas generadas en SIG que muestran la distribución espacial de una o más variables específicas, como la fertilidad del suelo o el rendimiento.',
         },
         {
-          termino: 'ETL',
+          termino: 'Riego automatizado',
           significado:
-            '<i>Extract, Transform, Load </i>(Extraer, Transformar, Cargar); proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos.',
+            'Sistema que ajusta automáticamente la cantidad y frecuencia de riego en función de datos en tiempo real recopilados por sensores de humedad y clima.',
+        },
+        {
+          termino: 'Sensores IoT',
+          significado:
+            'Dispositivos conectados a internet que recopilan y transmiten datos en tiempo real sobre variables ambientales y del suelo.',
+        },
+        {
+          termino: 'Sistema de Información Geográfica (SIG)',
+          significado:
+            'Herramienta que permite recopilar, analizar y visualizar datos geoespaciales, facilitando la toma de decisiones en función de la variabilidad espacial.',
+        },
+        {
+          termino: 'Sistema de Posicionamiento Global (GPS)',
+          significado:
+            'Tecnología que utiliza una red de satélites para determinar con precisión la ubicación geográfica de un objeto en la superficie terrestre.',
+        },
+        {
+          termino: 'Variabilidad espacial',
+          significado:
+            'Diferencias en las propiedades del suelo, clima o cultivo dentro de una misma unidad productiva.',
+        },
+        {
+          termino: 'Variabilidad temporal',
+          significado:
+            'Cambios en las condiciones ambientales y del cultivo que ocurren a lo largo del tiempo, como variaciones estacionales o climáticas.',
         },
       ],
     }

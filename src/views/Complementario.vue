@@ -28,18 +28,82 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de datos y estructuras',
+          tema: 'Introducción a los sistemas de información',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 5). <i>Ejemplo problemas en la recolección de la información</i>.',
+            'ERP School. (2021, March 14). What is an ERP System and How Can it Transform Industry Operations? ',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=LOlsg6ZkdcA ',
+          link: 'https://www.youtube.com/watch?v=kDPW2Lle2gQ',
         },
         {
-          tema: '2. Calidad y tratamiento de datos',
+          tema: 'Introducción a los sistemas de información',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, septiembre 5). <i>Datos sucios</i>.',
+            'Engineering Library. (2018). Introduction to SCADA and Industrial Automation.',
+          tipo: 'Documento',
+          link: 'https://www.engineeringlibrary.org/scada_automation.pdf',
+        },
+        {
+          tema: 'Gestión de la variabilidad espacial y temporal',
+          referencia:
+            'QGIS Development Team. (2021). QGIS Geographic Information System. Open Source Geospatial Foundation Project.',
+          tipo: 'Software (GIS)',
+          link: 'https://qgis.org',
+        },
+        {
+          tema: 'Gestión de la variabilidad espacial y temporal',
+          referencia: 'Google Earth Engine. (2021). Earth Engine Data Catalog.',
+          tipo: 'Plataforma en la nube',
+          link: 'https://earthengine.google.com/',
+        },
+        {
+          tema: 'Automatismos eléctricos',
+          referencia:
+            'Automation Direct. (2019, November 15). Introduction to PLCs and Industrial Automation [Video]. YouTube.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=qf6MR4o58cs ',
+          link: 'https://www.youtube.com/watch?v=Yrj1aWS0Tt4',
+        },
+        {
+          tema: 'Automatismos eléctricos',
+          referencia:
+            'Festo Didactic. (2009). Manual Básico de Automatismos Eléctricos. Festo Didactic GmbH.',
+          tipo: 'Documento PDF',
+          link: 'https://www.festo.com/manuales/automatismos_basicos.pdf',
+        },
+        {
+          tema: 'Introducción a la agricultura de precisión',
+          referencia:
+            'Universidad Nacional Agraria - Nicaragua. (2017). ¿Qué es Agricultura de Precisión? [Video]. YouTube.',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=3CHz9Ul6RFQ',
+        },
+        {
+          tema: 'Aplicaciones prácticas de la agricultura de precisión ',
+          referencia:
+            'Universidad EARTH. (2020). Agricultura de precisión y su aplicación práctica [Video]. YouTube',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=V0XpvRE7M1s',
+        },
+        {
+          tema: 'Software de uso libre para agricultura de precisión',
+          referencia:
+            'Universidad Nacional de Córdoba. (2024). FastMapping: software de uso libre para la agricultura de precisión.',
+          tipo: 'Documento',
+          link:
+            'https://uncinnova.unc.edu.ar/2024/05/31/fastmapping-software-de-uso-libre-para-la-agricultura-de-precision/',
+        },
+        {
+          tema: 'Definiciones de agricultura de precisión',
+          referencia:
+            'Grup de Recerca en AgròTICa i Agricultura de Precisió. (s.f.). Definiciones de Agricultura de Precisión.',
+          tipo: 'Documento',
+          link:
+            'https://hemav.com/blog/agricultura-de-precision-guia-completa/',
+        },
+        {
+          tema: 'Plataforma para agricultura de precisión',
+          referencia:
+            'Agricolus. (s.f.). Agricolus - La plataforma para la agricultura de precisión.',
+          tipo: 'Documento',
+          link: 'https://www.agricolus.com/es/',
         },
       ]
     },
